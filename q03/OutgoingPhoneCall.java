@@ -17,6 +17,9 @@ public class OutgoingPhoneCall extends PhoneCall {
 
     @Override
     public void callInformation() {
+        System.out.println("phone number : " + super.phoneNumber + "\n" +
+                "rate : " + super.price + "\n" + "the number of minutes :" + time +
+                "\n" + "total price : " + super.price);
 
     }
 
